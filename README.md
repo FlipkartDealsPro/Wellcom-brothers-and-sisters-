@@ -20,25 +20,19 @@
   <main class="max-w-4xl mx-auto py-10 px-4">
     <div class="bg-white rounded-2xl shadow-lg p-6">
 
-      <!-- YouTube Video -->
-      <div class="w-full aspect-w-16 aspect-h-9 mb-6">
-        <iframe class="w-full rounded-lg"
-          height="315"
-          src="https://www.youtube.com/embed/diDERFmS8d8"
-          title="Product Video"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-        </iframe>
+      <!-- Product Image -->
+      <div class="w-full flex justify-center mb-6">
+        <img src="https://chat.openai.com/cdn-cgi/imagedelivery/0bLEkZyPp1jPE_7zRJpQzw/s-442906536/public" alt="Stylish Sneakers" class="w-72 rounded-xl shadow-md" />
       </div>
 
       <!-- Product Details -->
-      <h2 class="text-2xl font-bold text-gray-800 mb-2 text-center">ERD 5W Mobile Charger with Data Cable</h2>
-      <p class="text-green-600 text-center font-semibold text-lg">17% Off - Now ₹299 <span class="line-through text-gray-400 text-sm">(MRP ₹400)</span></p>
+      <h2 class="text-2xl font-bold text-gray-800 mb-2 text-center">Stylish Casual Sneakers for Men</h2>
+      <p class="text-green-600 text-center font-semibold text-lg">28% Off - Now ₹500 <span class="line-through text-gray-400 text-sm">(MRP ₹700)</span></p>
       <p class="text-gray-700 text-center mt-2">Product delivered by <span class="font-semibold text-blue-600">Flipkart Group</span></p>
       <p class="text-sm text-center text-gray-600 mt-1">📦 Estimated Delivery: 3–5 Days</p>
+      <p class="text-sm text-center text-gray-600 mt-1">🔁 Replace in 4 Days</p>
 
-      <!-- Replacing "Buy on Website" Button with another Form -->
+      <!-- Order Form -->
       <div class="mt-8 bg-yellow-50 border border-yellow-300 rounded-xl p-6">
         <h3 class="text-xl font-semibold text-yellow-600 mb-4 text-center">Order Now Form</h3>
 
@@ -82,7 +76,7 @@
           <!-- Pay Now QR Code -->
           <div id="qrSection" class="hidden mb-6 text-center">
             <p class="text-sm text-gray-700 mb-2 font-medium">Scan this UPI QR to Pay Now</p>
-            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=9667302392-2@ybl&pn=Sale4u%20Flipkart%20Deals&am=299" alt="Pay Now QR Code" class="w-40 mx-auto rounded-lg border" />
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=9667302392-2@ybl&pn=Sale4u%20Flipkart%20Deals&am=500" alt="Pay Now QR Code" class="w-40 mx-auto rounded-lg border" />
             <p class="text-xs text-gray-500 mt-1">After payment, complete the form and place your order.</p>
           </div>
 
